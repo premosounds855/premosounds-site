@@ -8,10 +8,16 @@ body {
   margin: 0;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+}
+
 .logo img {
-  height: 40px;
+  height: 45px;     /* controls size */
   width: auto;
-  display: block;
+  max-height: 45px; /* prevents stretching */
+  object-fit: contain;
 }
 
 .navbar {
@@ -330,6 +336,7 @@ section {
   background: #fff;
   color: #000;
 }
+
 
 
 
