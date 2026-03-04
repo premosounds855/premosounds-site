@@ -20,6 +20,17 @@ body {
   z-index:1000;
 }
 
+.nav-links li:last-child a {
+  border: 2px solid white;
+  padding: 8px 18px;
+  transition: 0.3s ease;
+}
+
+.nav-links li:last-child a:hover {
+  background: white;
+  color: black;
+}
+
 .logo { font-weight:bold; font-size:20px; }
 
 .menu-toggle {
@@ -313,6 +324,7 @@ section {
   background: #fff;
   color: #000;
 }
+
 
 
 
