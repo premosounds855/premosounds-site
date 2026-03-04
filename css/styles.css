@@ -1,4 +1,11 @@
-﻿* { margin:0; padding:0; box-sizing:border-box; }
+@font-face {
+  font-family: 'Sukajan Brush';
+  src: url('../fonts/SukajanBrush.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 80px;
@@ -9,9 +16,16 @@ body {
 }
 
 .logo {
-  display: flex;
-  align-items: center;
-  color: red;
+  font-family: 'Sukajan Brush', cursive;
+  font-size: 34px;
+  letter-spacing: 3px;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+  opacity: 0.85;
 }
 
 .navbar {
@@ -330,6 +344,7 @@ section {
   background: #fff;
   color: #000;
 }
+
 
 
 
