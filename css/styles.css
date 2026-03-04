@@ -122,56 +122,72 @@ section {
 
 .contact-section {
   background: #000;
-  padding: 120px 20px;
+  padding: 140px 20px;
   text-align: center;
 }
 
 .contact-title {
-  font-size: 48px;
-  letter-spacing: 4px;
-  margin-bottom: 50px;
+  font-size: 52px;
+  letter-spacing: 5px;
+  margin-bottom: 60px;
   font-weight: 900;
 }
 
+/* FORM WRAPPER */
 .contact-form {
-  max-width: 600px;
+  max-width: 750px; /* 25% bigger */
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  align-items: center;
+  gap: 25px;
 }
 
+/* INPUT FIELDS */
 .contact-form input,
 .contact-form textarea {
+  width: 100%;
   background: transparent;
-  border: 2px solid white;
-  padding: 15px;
-  font-size: 16px;
+  border: 3px solid #000; /* black border */
+  padding: 20px; /* bigger */
+  font-size: 18px; /* bigger */
   color: white;
   outline: none;
   font-weight: bold;
   letter-spacing: 2px;
+  transition: 0.3s ease;
 }
 
+/* Placeholder */
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
   color: rgba(255,255,255,0.6);
-  letter-spacing: 2px;
 }
 
+/* Focus effect */
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #fff;
+}
+
+/* BUTTON */
 .contact-form button {
+  width: 100%;
   background: white;
   color: black;
-  padding: 15px;
-  border: none;
+  padding: 20px;
+  font-size: 18px;
   font-weight: 900;
   letter-spacing: 3px;
+  border: none;
   cursor: pointer;
   transition: 0.3s ease;
+  margin-top: 10px;
 }
 
 .contact-form button:hover {
   background: #ccc;
 }
+
 
 
