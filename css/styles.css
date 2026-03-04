@@ -16,11 +16,6 @@ body {
   transition: 1s ease;
 }
 
-.logo:hover {
-  transform: scale(1.05);
-  opacity: 0.85;
-}
-
 .navbar {
   position:fixed;
   width:100%;
@@ -337,6 +332,7 @@ section {
   background: #fff;
   color: #000;
 }
+
 
 
 
