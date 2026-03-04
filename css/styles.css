@@ -62,11 +62,22 @@ body { font-family:Arial,sans-serif; color:#fff; }
   top: 50%;
   left: 50%;
   width: 100vw;
-  height: 56.25vw; /* 16:9 ratio */
-  min-height: 100vh;
-  min-width: 177.77vh; /* 16:9 ratio */
+  height: 100vh;
   transform: translate(-50%, -50%);
   pointer-events: none;
+}
+
+/* Maintain 16:9 without shrinking */
+@media (min-aspect-ratio: 16/9) {
+  .video-background iframe {
+    height: 56.25vw;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .video-background iframe {
+    width: 177.78vh;
+  }
 }
 
 /* CONTENT ABOVE VIDEO */
@@ -108,5 +119,6 @@ section {
   }
   .nav-links.show { display:flex; }
 }
+
 
 
