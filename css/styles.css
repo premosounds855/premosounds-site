@@ -42,7 +42,7 @@ body {
 /* HOME SECTION */
 #home {
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -135,6 +135,7 @@ section {
 
 /* HUGE BACKGROUND WATERMARK */
 .about-bg-text {
+  z-index: 0;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -149,6 +150,7 @@ section {
 
 /* MAIN GRID */
 .about-wrapper {
+  z-index: 1;
   position: relative;
   display: grid;
   grid-template-columns: 0.8fr 1.2fr;
@@ -159,13 +161,19 @@ section {
 }
 
 /* LEFT SIDE — ROTATED TITLE */
+.about-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .about-left h2 {
   font-family: 'Bebas Neue', sans-serif;
-  font-size: 160px;
+  font-size: 140px;
   line-height: 0.9;
   letter-spacing: 10px;
-  transform: rotate(-90deg);
-  transform-origin: left top;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
 }
 
 /* RIGHT SIDE TEXT */
@@ -299,4 +307,5 @@ section {
   background: #fff;
   color: #000;
 }
+
 
