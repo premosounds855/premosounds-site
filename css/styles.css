@@ -1,8 +1,8 @@
 ﻿* { margin:0; padding:0; box-sizing:border-box; }
 html { scroll-behavior:smooth; }
 body {
-  font-family: 'Anton', sans-serif;
-  letter-spacing: 1px;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
 }
 
 .navbar {
@@ -193,3 +193,4 @@ section {
   background: #fff;
   color: #000;
 }
+
