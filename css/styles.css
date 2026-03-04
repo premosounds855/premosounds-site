@@ -1,5 +1,9 @@
 ﻿* { margin:0; padding:0; box-sizing:border-box; }
 html { scroll-behavior:smooth; }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
 body {
   font-family: 'Inter', sans-serif;
   margin: 0;
@@ -91,7 +95,7 @@ body {
 
 section {
   padding: 140px 5%;
-  postion: relative;
+  position: relative;
   z-index: 1;
 }
 
@@ -306,6 +310,7 @@ section {
   background: #fff;
   color: #000;
 }
+
 
 
 
