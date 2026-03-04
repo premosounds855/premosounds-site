@@ -194,3 +194,39 @@ section {
   color: #000;
 }
 
+/* ABOUT SECTION */
+
+.about-section {
+  background: #111;
+  color: #fff;
+  padding: 160px 20px;
+}
+
+.about-container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.about-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 90px;
+  letter-spacing: 6px;
+  margin-bottom: 30px;
+}
+
+.about-intro {
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.about-section p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
