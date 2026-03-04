@@ -14,7 +14,7 @@ body {
 }
 
 .logo img {
-  height: 45px;     /* controls size */
+  height: 15px;     /* controls size */
   width: auto;
   max-height: 45px; /* prevents stretching */
   object-fit: contain;
@@ -336,6 +336,7 @@ section {
   background: #fff;
   color: #000;
 }
+
 
 
 
