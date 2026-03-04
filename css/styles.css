@@ -43,7 +43,6 @@ body {
 #home {
   position: relative;
   min-height: 100vh;
-  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -91,9 +90,9 @@ body {
 }
 
 section {
-  padding:120px 20px;
-  text-align:center;
-  min-height:100vh;
+  padding: 140px 5%;
+  postion: relative;
+  z-index: 1;
 }
 
 .hero {
@@ -129,7 +128,7 @@ section {
   position: relative;
   background: #0a0a0a;
   color: #fff;
-  padding: 220px 5%;
+  padding: 180px 5%;
   overflow: hidden;
 }
 
@@ -307,5 +306,6 @@ section {
   background: #fff;
   color: #000;
 }
+
 
 
