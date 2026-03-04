@@ -8,6 +8,12 @@ body {
   margin: 0;
 }
 
+.logo img {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+
 .navbar {
   position:fixed;
   width:100%;
@@ -324,6 +330,7 @@ section {
   background: #fff;
   color: #000;
 }
+
 
 
 
