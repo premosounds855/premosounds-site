@@ -13,13 +13,6 @@ body {
   align-items: center;
 }
 
-.logo img {
-  height: 5px;     /* controls size */
-  width: 5px;
-  max-height: 5px; /* prevents stretching */
-  object-fit: contain;
-}
-
 .navbar {
   position:fixed;
   width:100%;
@@ -336,6 +329,7 @@ section {
   background: #fff;
   color: #000;
 }
+
 
 
 
